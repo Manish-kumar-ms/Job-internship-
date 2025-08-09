@@ -5,6 +5,11 @@ It features **role-based access**, **JWT authentication**, **Context API** for s
 
 ---
 
+## 🌐 Live Demo
+
+- **Frontend**: [https://job-internship-frontend.onrender.com](https://job-internship-frontend.onrender.com)  
+- **Backend**: [https://job-internship-project.onrender.com](https://job-internship-project.onrender.com)
+
 ## 🚀 Features
 
 ### 👨‍💼 Roles
@@ -107,5 +112,7 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
-
+DEMO login
+email:m@gmail.com
+password:1234
 
