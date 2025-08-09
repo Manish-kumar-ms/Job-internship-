@@ -10,9 +10,7 @@ export const createJob = async (req, res) => {
 
         const user=await User.findById(req.user._id);
 
-        if(user.role !== 'Admin') {
-            return res.status(403).json({ message: "only Admin can create jobs" });
-        }
+       
 
         // Create job logic here
         const { jobtitle, description, company, location,salary }=req.body;
