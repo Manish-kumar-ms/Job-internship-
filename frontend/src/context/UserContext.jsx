@@ -7,7 +7,7 @@ import { useEffect } from "react";
 export const UserDataContext  = createContext();
 
 const UserContext=({children})=>{
-    const serverUrl = "http://localhost:8000";
+    const serverUrl = "https://job-internship-project.onrender.com";
     const [userData,setUserData]=useState(null)
 
     const [loading,setLoading]=useState(true)
